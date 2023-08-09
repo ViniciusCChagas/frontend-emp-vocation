@@ -1,0 +1,34 @@
+.registerNewVocation {
+	& > h2 {
+		font-size: 1.3rem;
+	}
+
+	form {
+		display: flex;
+
+		h2 {
+			margin: 0;
+		}
+
+		.newVocationResume {
+			display: flex;
+			flex-direction: column;
+
+			margin-left: 2rem;
+
+			span {
+				font-size: 1rem;
+				font-weight: 900;
+			}
+
+			p {
+				margin-bottom: 1rem;
+			}
+
+			button:first-of-type {
+				margin-top: auto;
+				margin-bottom: 0.5rem;
+			}
+		}
+	}
+}

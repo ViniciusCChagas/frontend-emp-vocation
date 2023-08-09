@@ -1,0 +1,97 @@
+:root {
+	font-family: 'Poppins', sans-serif;
+
+	--max-width: 1200px;
+
+	--primary: #fabb18;
+	--secondary: #000000;
+
+	--danger: #e52e4d;
+	--success: #33cc95;
+
+	--dark-text: #000000;
+	--light-text: #969cb3;
+
+	--light-border: #e4e4e4;
+
+	--background: #f0f2f5;
+	--white: #ffffff;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+html {
+	@media (max-width: 1080px) {
+		font-size: 93.75%; // 15px (Desktop)
+	}
+
+	@media (max-width: 720px) {
+		font-size: 87.5%; // 14px
+	}
+}
+
+body,
+button,
+input,
+textarea {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+}
+
+input[aria-invalid='true']:focus {
+	border-color: #e53e3e;
+	box-shadow: 0 0 0 1px #e53e3e;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+	font-weight: 600;
+}
+
+body {
+	background: var(--background);
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	html {
+		color-scheme: dark;
+	}
+}
+
+.swal2-title {
+	color: var(--dark-text);
+}
+
+.swal2-html-container {
+	color: var(--light-text);
+}
+
+.swal2-actions {
+	margin-top: 3rem;
+	width: 100%;
+
+	.swal2-confirm {
+		background: var(--primary);
+		color: var(--dark-text);
+	}
+
+	.swal2-confirm,
+	.swal2-cancel,
+	.swal2-deny {
+		font-weight: 600;
+	}
+}

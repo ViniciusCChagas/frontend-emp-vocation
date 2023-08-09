@@ -1,0 +1,16 @@
+.countCard {
+	background: var(--secondary);
+	color: var(--white);
+
+	padding: 1rem 2rem;
+	border-radius: 0.5rem;
+
+	p {
+		font-weight: 700;
+		font-size: 1rem;
+	}
+
+	span {
+		font-size: 2rem;
+	}
+}

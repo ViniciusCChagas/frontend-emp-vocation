@@ -1,0 +1,61 @@
+.pageContainer {
+	display: flex;
+	flex-direction: column;
+
+	align-items: center;
+
+	min-height: 100vh;
+
+	background: var(--background);
+
+	& > header {
+		display: flex;
+		flex-direction: column;
+
+		align-items: center;
+
+		width: 100%;
+
+		padding: 2rem 2rem 4rem;
+
+		background: var(--primary);
+	}
+}
+
+.headerContent {
+	display: flex;
+	justify-content: space-between;
+
+	width: 100%;
+	max-width: var(--max-width);
+
+	padding: 0rem 2rem 2rem;
+
+	h1 {
+		font-size: 3rem;
+		font-weight: 700;
+	}
+
+	h2 {
+		font-size: 20px;
+	}
+}
+
+.sectionCard {
+	background: var(--white);
+
+	width: 100%;
+	max-width: var(--max-width);
+
+	margin-top: -2.5rem;
+	margin-bottom: 4rem;
+
+	padding: 1rem 2rem 4rem;
+
+	border-radius: 0.5rem;
+
+	h2 {
+		margin-bottom: 1rem;
+	}
+}
+
