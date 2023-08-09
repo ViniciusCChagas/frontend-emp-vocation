@@ -172,6 +172,7 @@ function EditEmployeeFormModal() {
 								type='date'
 								{...register('admissionDate', {
 									...inputConfig['admissionDate'],
+									// @ts-ignore
 									value: admissonDate,
 								})}
 							/>
