@@ -7,14 +7,12 @@ O EMP-VOCATION é um software de cadastro e gerenciamento de férias dos funcion
 </br>
 </br>
 
-
 ## Links Uteis
 
 <li>Online Preview: <a href="https://frontend-emp-vocation.vercel.app/" target="_blank">Link</a></li>
 
 </br>
 </br>
-
 
 ## Instruções para uso
 
@@ -32,7 +30,6 @@ $ git clone https://github.com/ViniciusCChagas/frontend-emp-vocation
 
 ou você pode baixar o repositório como um arquivo .ZIP
 
-
 ### 2. Instalar as dependências
 
 Após isso, na pasta do projeto rode o comando
@@ -45,9 +42,18 @@ $ yarn
 
 para instalar todas as dependencias do projeto. <br>
 
-### 3. Rodar a aplicação
+### 3. Configurar as variaveis de ambiente
 
-Depois de instalar todas as dependencias do projeto, vamos executa-lo em modo de desenvolvimento, utilizando o comando:
+Depois de instalar todas as dependencias do projeto, devemos configurar as variaveis de ambiente:
+
+Devemos criar um arquivo `.env` na raiz do projeto e então copiar o conteudo do arquivo `.env.example` para dentro, preenchendo os dados com as informações corretas.
+```env
+NEXT_PUBLIC_API_URL=<URL DO BACKEND>
+```
+
+### 4. Rodar a aplicação
+
+Depois configurar as variaveis de ambiente, vamos executa-lo em modo de desenvolvimento, utilizando o comando:
 
 ```bash
 $ npm run dev
@@ -83,7 +89,6 @@ Após isso podemos acessar o App no endereço: [http://localhost:3000](http://lo
 #### Perfil do funcionário / Formulario de cadastro de férias:
 
 ![Perfil de Funcionáio](readme/perfil-funcionario.png)
-
 
 ## Ferramentas utilizadas
 
