@@ -6,7 +6,8 @@ O EMP-VOCATION é um software de cadastro e gerenciamento de férias dos funcion
 
 ## Links Uteis
 
-<li>Online Preview: <a href="https://minhaagenda-viniciuscchagas.vercel.app/" target="_blank">Link</a></li>
+<li>Online Preview: <a href="https://frontend-emp-vocation.vercel.app/" target="_blank">Link</a></li>
+
 
 ## Instruções para uso
 
