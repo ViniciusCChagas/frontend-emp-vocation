@@ -18,7 +18,7 @@ O EMP-VOCATION é um software de cadastro e gerenciamento de férias dos funcion
 
 #### ATENÇÃO: Este projeto depende do seu BackEnd para funcionar corretamente!
 
-Link do repositório do backend: [https://github.com/ViniciusCChagas/backend-emp-vocation](Repositório)
+Link do repositório do backend: <a href="https://github.com/ViniciusCChagas/backend-emp-vocation" target="_blank">Clique aqui</a>
 
 ### 1. Clonar repositório
 
@@ -47,6 +47,7 @@ para instalar todas as dependencias do projeto. <br>
 Depois de instalar todas as dependencias do projeto, devemos configurar as variaveis de ambiente:
 
 Devemos criar um arquivo `.env` na raiz do projeto e então copiar o conteudo do arquivo `.env.example` para dentro, preenchendo os dados com as informações corretas.
+
 ```env
 NEXT_PUBLIC_API_URL=<URL DO BACKEND>
 ```
