@@ -4,9 +4,16 @@ Este software foi desenvolvido com base em um desafio técnico, a fim de testar 
 
 O EMP-VOCATION é um software de cadastro e gerenciamento de férias dos funcionários de uma empresa fictícia.
 
+</br>
+</br>
+
+
 ## Links Uteis
 
 <li>Online Preview: <a href="https://frontend-emp-vocation.vercel.app/" target="_blank">Link</a></li>
+
+</br>
+</br>
 
 
 ## Instruções para uso
@@ -24,6 +31,7 @@ $ git clone https://github.com/ViniciusCChagas/frontend-emp-vocation
 ```
 
 ou você pode baixar o repositório como um arquivo .ZIP
+
 
 ### 2. Instalar as dependências
 
@@ -76,10 +84,6 @@ Após isso podemos acessar o App no endereço: [http://localhost:3000](http://lo
 
 ![Perfil de Funcionáio](readme/perfil-funcionario.png)
 
-<br/>
-<br/>
-<br/>
-<br/>
 
 ## Ferramentas utilizadas
 
