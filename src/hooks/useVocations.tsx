@@ -183,10 +183,14 @@ export const VocationsProvider = function ({ children }: VocationsProviderProps)
 		}
 
 		try {
-			const response = api.post('/vocation', {
+			const response = await api.post('/vocation', {
 				employeeId: employee._id,
-				initialDate: formatISO(initialDate),
-				finalDate: formatISO(finalDate),
+				initialDate: formatISO(initialDate, {
+					representation: 'date',
+				}),
+				finalDate: formatISO(finalDate, {
+					representation: 'date',
+				}),
 			});
 
 			console.log(response);
