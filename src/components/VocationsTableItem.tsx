@@ -4,7 +4,7 @@ import { differenceInCalendarDays, isPast, isWithinInterval } from 'date-fns';
 import { useVocations } from '@/hooks/useVocations';
 import { Vocation } from '@/interfaces/Vocation';
 import styles from '@/styles/components/VocationsTableItem.module.scss';
-import { getInitialDate } from '@/utils/DateUtils';
+import { getFinalDate, getInitialDate } from '@/utils/DateUtils';
 import { showDangerConfirmModal } from '@/utils/SweetAlert';
 
 interface VocationTableItemProps {
@@ -14,8 +14,11 @@ interface VocationTableItemProps {
 function VocationsTableItem({ vocation }: VocationTableItemProps) {
 	const { deleteVocation } = useVocations();
 
-	const initialDate = getInitialDate(new Date(vocation.initialDate));
-	const finalDate = getInitialDate(new Date(vocation.finalDate));
+	const isoInitialDate = vocation.initialDate.split('T').join(' ').split('Z').join('');
+	const isoFinalDate = vocation.finalDate.split('T').join(' ').split('Z').join('');
+
+	const initialDate = getInitialDate(new Date(isoInitialDate));
+	const finalDate = getFinalDate(new Date(isoFinalDate));
 
 	const daysDiff = differenceInCalendarDays(finalDate, initialDate) + 1;
 

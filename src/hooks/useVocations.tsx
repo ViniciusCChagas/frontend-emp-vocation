@@ -193,7 +193,6 @@ export const VocationsProvider = function ({ children }: VocationsProviderProps)
 				}),
 			});
 
-			console.log(response);
 			refreshServerSidePropsData();
 
 			showToast('Sucesso!', 'Férias cadastrada com sucesso!', 'success');
