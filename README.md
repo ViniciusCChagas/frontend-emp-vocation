@@ -1,38 +1,84 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Links Uteis
 
-## Getting Started
+<li>Online Preview: <a href="https://minhaagenda-viniciuscchagas.vercel.app/" target="_blank">Link</a></li>
 
-First, run the development server:
+## Instruções para uso
+
+#### ATENÇÃO: Este projeto depende do seu BackEnd para funcionar corretamente!
+
+Link do repositório do backend: [https://github.com/ViniciusCChagas/backend-emp-vocation](Repositório)
+
+### 1. Clonar repositório
+
+Você pode clonar esse repositório utilizando o comando: <br>
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+$ git clone https://github.com/ViniciusCChagas/frontend-emp-vocation
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+ou você pode baixar o repositório como um arquivo .ZIP
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+### 2. Instalar as dependências
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Após isso, na pasta do projeto rode o comando
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```bash
+$ npm install
+#ou
+$ yarn
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+para instalar todas as dependencias do projeto. <br>
 
-## Learn More
+### 3. Rodar a aplicação
 
-To learn more about Next.js, take a look at the following resources:
+Depois de instalar todas as dependencias do projeto, vamos executa-lo em modo de desenvolvimento, utilizando o comando:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+$ npm run dev
+# ou
+$ yarn dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Após isso podemos acessar o App no endereço: [http://localhost:3000](http://localhost:3000) e conferir o resultado.
 
-## Deploy on Vercel
+</br>
+</br>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Algumas imagens do projeto
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+#### Lista de funcionários cadastrados:
+
+![Lista de Funcionário](readme/lista-de-funcionarios.png)
+
+<br/>
+
+#### Formulário de cadastro de novo funcionário:
+
+![Cadastro de Funcionáio](readme/cadastro-de-funcionario.png)
+
+<br/>
+
+#### Formulário de edição de funcionário:
+
+![Edição de Funcionáio](readme/edicao-de-funcionario.png)
+
+<br/>
+
+#### Perfil do funcionário / Formulario de cadastro de férias:
+
+![Perfil de Funcionáio](readme/perfil-funcionario.png)
+
+<br/>
+<br/>
+<br/>
+<br/>
+
+## Ferramentas utilizadas
+
+<li>NextJS</li>
+<li>ChakraUI</li>
+<li>Date-fns</li>
+<li>ContextAPI</li>
+<li>TypeScript</li>
+<li>Sass</li>
